@@ -8,4 +8,7 @@
   <a href="{% url 'album_detail' pk=album.pk %}">{{ album.title }}</a> by
   {{album.artist}}
 </p>
+
+<a href="{% url 'create_album' %}">Add Album</a>
+
 {% endfor %} {% endblock %}
